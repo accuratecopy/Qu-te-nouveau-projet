@@ -1,2 +1,17 @@
 9cdabf,127.0.0.1,GET,http://localhost:8000/,1540308652,,404
 4dfe3c,127.0.0.1,GET,http://localhost:8000/,1540308700,,404
+6ffcbb,127.0.0.1,GET,http://localhost:8000/,1541684605,,404
+f8d9d0,127.0.0.1,GET,http://localhost:8000/favicon.ico,1541684605,05e97d,200
+05e97d,127.0.0.1,GET,http://localhost:8000/favicon.ico,1541684605,,404
+28c53b,127.0.0.1,GET,http://localhost:8000/,1541684647,,200
+40d1c6,127.0.0.1,GET,http://localhost:8000/favicon.ico,1541684647,e62b80,200
+e62b80,127.0.0.1,GET,http://localhost:8000/favicon.ico,1541684647,,404
+b42236,127.0.0.1,GET,http://localhost:8000/,1541684689,,200
+dbfc89,127.0.0.1,GET,http://localhost:8000/favicon.ico,1541684689,1729fb,200
+1729fb,127.0.0.1,GET,http://localhost:8000/favicon.ico,1541684689,,404
+cc7c76,127.0.0.1,GET,http://localhost:8000/,1541684777,,200
+035670,127.0.0.1,GET,http://localhost:8000/favicon.ico,1541684777,758abd,200
+758abd,127.0.0.1,GET,http://localhost:8000/favicon.ico,1541684777,,404
+d0be34,127.0.0.1,GET,http://localhost:8000/,1541689219,,200
+daa7d6,127.0.0.1,GET,http://localhost:8000/favicon.ico,1541689219,9e0f9a,200
+9e0f9a,127.0.0.1,GET,http://localhost:8000/favicon.ico,1541689219,,404
