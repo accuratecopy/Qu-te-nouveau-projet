@@ -1,0 +1,10 @@
+{% extends 'base.html.twig' %}
+
+{% block title %}{% endblock %}
+
+{% block body %}
+    <h1>{{ article.id }} - {{ article.title }}</h1>
+    <p>{{ article.content }}</p>
+
+    <a href="{{ path('article_show', {'id': article.id }) }}">{{ article.title }}></a>
+{% endblock %}

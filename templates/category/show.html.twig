@@ -1,0 +1,9 @@
+{% extends 'base.html.twig' %}
+
+{% block title %}{% endblock %}
+
+{% block body %}
+    <h1>{{ category.id }} - {{ category.name }}</h1>
+
+    <a href="{{ path('category_show', {'id': category.id }) }}">{{ category.name }}></a>
+{% endblock %}
