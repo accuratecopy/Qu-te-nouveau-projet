@@ -1,11 +1,12 @@
 {% extends 'base.html.twig' %}
 
-{% block title %}{% endblock %}
+{% block title %}Index{% endblock %}
+
+{% block stylesheets %}{% endblock %}
 
 {% block body %}
-    <h1>{{ category.id }} -> {{ category.name }}</h1>
-    {% for article in articles %}
-        <p>{{ article.id }} -> {{ article.title }}</p>
-            <p>{{ article.content }}</p>
-    {% endfor %}
+    {{ form_start(form) }}
+    {{ form_row(form.name) }}
+    <button class="btn">{{ button_label|default('Create') }}</button>
+    {{ form_end(form) }}
 {% endblock %}
