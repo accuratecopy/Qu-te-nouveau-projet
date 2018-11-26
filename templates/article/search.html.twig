@@ -4,7 +4,6 @@
 
 {% block body %}
     {{ form_start(form) }}
-    {{ form_row(form.name) }}
-    <button class="btn">{{ button_label|default('Create') }}</button>
     {{ form_end(form) }}
+    <button class="btn">{{ button_label|default('Save') }}</button>
 {% endblock %}

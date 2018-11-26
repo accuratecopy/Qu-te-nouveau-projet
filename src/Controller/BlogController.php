@@ -4,7 +4,7 @@ namespace App\Controller;
 
 use App\Entity\Category;
 use App\Entity\Article;
-use App\Form\ArticleSearchType;
+use App\Form\ArticleType;
 use App\Form\CategoryType;
 use Symfony\Bundle\FrameworkBundle\Controller\AbstractController;
 use Symfony\Component\HttpFoundation\Request;
@@ -21,7 +21,7 @@ class BlogController extends AbstractController
     public function index(Request $request) : Response
     {
         $form = $this->createForm(
-            ArticleSearchType::class,
+            ArticleType::class,
             null,
             ['method' => Request::METHOD_GET]
         );
